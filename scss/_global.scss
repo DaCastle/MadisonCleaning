@@ -62,6 +62,10 @@ li {
   padding: 6rem;
 }
 
+.break-word {
+  word-wrap: break-word;
+}
+
 .text-faded {
   color: fade-out($white, .3);
 }

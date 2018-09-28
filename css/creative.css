@@ -70,6 +70,10 @@ li {
   padding: 6rem;
 }
 
+.break-word {
+  word-wrap: break-word;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -209,6 +213,8 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0 1rem;
 }
 
 header.masthead p {
