@@ -178,6 +178,12 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+@media (max-width: 370px) {
+  #mainNav .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
