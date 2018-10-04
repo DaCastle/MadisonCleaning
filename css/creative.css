@@ -138,6 +138,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+.hidden {
+  display: none;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -147,8 +151,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2rem;
   color: #115dd8;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -159,20 +163,13 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
   color: #212529;
-}
-
-#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #115dd8;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #115dd8 !important;
   background-color: transparent;
 }
 
@@ -184,7 +181,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: black;
   }
   #mainNav .navbar-brand {
     color: #fff;
@@ -208,7 +205,7 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #115dd8;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #115dd8;
@@ -216,10 +213,6 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #115dd8;
   }
 }
 
@@ -238,6 +231,7 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
+  font-weight: 100;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 0 1rem;
 }
@@ -254,7 +248,7 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 550px;
+    height: 484px;
     padding-top: 0;
     padding-bottom: 0;
   }
