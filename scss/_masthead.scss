@@ -12,8 +12,11 @@ header.masthead {
   h1 {
     font-size: 2rem;
     font-weight: 100;
-    background-color: rgba(0,0,0,.1);
     padding: 0 1rem;
+  }
+  strong {
+    background-color: rgba(0,0,0,.1);
+    padding: 0 2rem;
   }
   p {
     font-weight: 300;

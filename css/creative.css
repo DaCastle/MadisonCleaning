@@ -239,8 +239,12 @@ header.masthead hr {
 header.masthead h1 {
   font-size: 2rem;
   font-weight: 100;
-  background-color: rgba(0, 0, 0, 0.1);
   padding: 0 1rem;
+}
+
+header.masthead strong {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 2rem;
 }
 
 header.masthead p {
