@@ -9,7 +9,7 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top - 56)
-        }, 1000, "easeInOutExpo");
+        }, 500, "easeInOutExpo");
         return false;
       }
     }
@@ -99,7 +99,7 @@
     var sectionToShow = $(link.target)[0];
     navItems.forEach(function (link) {
       if (link.innerHTML === sectionToShow.innerHTML) {
-        $("#" + link.innerHTML.toLocaleLowerCase()).fadeIn(2000);
+        $("#" + link.innerHTML.toLocaleLowerCase()).fadeIn(1000);
       }
       else {
         $("#" + link.innerHTML.toLocaleLowerCase()).hide();
