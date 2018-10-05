@@ -166,6 +166,7 @@ img::-moz-selection {
   font-size: 1.5rem;
   font-weight: 400;
   color: #212529;
+  cursor: pointer;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
