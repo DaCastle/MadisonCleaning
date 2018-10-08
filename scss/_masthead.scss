@@ -2,7 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/apartment-architecture-bookcase-271816.jpg');
   background-position: center center;
   @include background-cover;
   hr {
@@ -13,6 +13,8 @@ header.masthead {
     font-size: 2rem;
     font-weight: 100;
     padding: 0 1rem;
+  }
+  strong {
     background-color: rgba(0,0,0,.2);
   }
   p {
