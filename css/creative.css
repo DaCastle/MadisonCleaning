@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.0.1 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -111,21 +111,10 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #212529;
-  text-shadow: none;
-}
-
 ::selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
-}
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent;
 }
 
 img::selection {
@@ -243,7 +232,11 @@ header.masthead h1 {
 }
 
 header.masthead strong {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header.masthead a {
+  color: white;
 }
 
 header.masthead p {
@@ -258,7 +251,7 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 484px;
+    height: 100%;
     padding-top: 0;
     padding-bottom: 0;
   }

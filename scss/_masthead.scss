@@ -1,41 +1,44 @@
 // Styling for the masthead
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/apartment-architecture-bookcase-271816.jpg');
-  background-position: center center;
-  @include background-cover;
-  hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  h1 {
-    font-size: 2rem;
-    font-weight: 100;
-    padding: 0 1rem;
-  }
-  strong {
-    background-color: rgba(0,0,0,.2);
-  }
-  p {
-    font-weight: 300;
-  }
-  @media (min-width: 768px) {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url('../img/apartment-architecture-bookcase-271816.jpg');
+    background-position: center center;
+    @include background-cover;
+    hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: 100;
+        padding: 0 1rem;
+    }
+    strong {
+        background-color: rgba(0, 0, 0, .8);
+    }
+    a {
+        color: white;
+    }
     p {
-      font-size: 1.15rem;
+        font-weight: 300;
     }
-  }
-  @media (min-width: 992px) {
-    height: 484px;
-    padding-top: 0;
-    padding-bottom: 0;
-    h1 {
-      font-size: 3rem;
+    @media (min-width: 768px) {
+        p {
+            font-size: 1.15rem;
+        }
     }
-  }
-  @media (min-width: 1200px) {
-    h1 {
-      font-size: 4rem;
+    @media (min-width: 992px) {
+        height: 100%; //484
+        padding-top: 0;
+        padding-bottom: 0;
+        h1 {
+            font-size: 3rem;
+        }
     }
-  }
+    @media (min-width: 1200px) {
+        h1 {
+            font-size: 4rem;
+        }
+    }
 }
